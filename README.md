@@ -41,8 +41,6 @@ This repository contains comprehensive documentation for Week 2 VAPT (Vulnerabil
 4. MySQL Root No Password - CVSS 9.8
 5. PHP CGI Argument Injection - CVSS 9.8
 
-**Documentation:** `Documentation/01_Vulnerability_Scanning_Report.pdf`
-
 ---
 
 ### 2. Reconnaissance Practice ✅
@@ -65,7 +63,6 @@ This repository contains comprehensive documentation for Week 2 VAPT (Vulnerabil
 - Server version information disclosed (Medium Risk)
 - Adobe Flash detected (deprecated, High Risk)
 
-**Documentation:** `Documentation/02_Reconnaissance_Report.pdf`
 
 ---
 
@@ -87,7 +84,6 @@ This repository contains comprehensive documentation for Week 2 VAPT (Vulnerabil
 - Database completely dumped via SQL injection
 - Root-level access achieved through multiple vectors
 
-**Documentation:** `Documentation/03_Exploitation_Report.pdf`
 
 ---
 
@@ -118,7 +114,6 @@ This repository contains comprehensive documentation for Week 2 VAPT (Vulnerabil
 - 2 additional systems vulnerable to credential reuse
 - Complete network diagram created
 
-**Documentation:** `Documentation/04_Post_Exploitation_Report.pdf`
 
 ---
 
@@ -148,7 +143,6 @@ This repository contains comprehensive documentation for Week 2 VAPT (Vulnerabil
 - Remote code execution achieved
 - Administrative access obtained
 
-**Documentation:** `Documentation/05_Capstone_VAPT_Report.pdf`
 
 ---
 
