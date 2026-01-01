@@ -230,16 +230,6 @@ This repository contains comprehensive documentation for Week 2 VAPT (Vulnerabil
 
 ---
 
-## 📝 Report Highlights
-
-### For Management (Executive Summary)
-A comprehensive security assessment identified critical vulnerabilities enabling complete system compromise. Ten critical-severity issues require immediate remediation within 24-48 hours. The assessment demonstrates significant risk of data breach, unauthorized access, and potential regulatory non-compliance. Estimated remediation cost: $5,000-$15,000. Full details in `Documentation/06_Executive_Summary.pdf`.
-
-### For Technical Teams
-Detailed technical reports provide step-by-step exploitation procedures, proof-of-concept code, remediation guidance, and validation steps. Each vulnerability includes CVSS scores, impact analysis, and prioritized remediation timelines. Complete scan outputs and evidence files available in `Scan_Results/` directory.
-
----
-
 ## 🚀 Remediation Priorities
 
 ### P0 - Critical (0-24 hours)
