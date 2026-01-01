@@ -21,43 +21,6 @@ This repository contains comprehensive documentation for Week 2 VAPT (Vulnerabil
 
 ---
 
-## 📁 Repository Structure
-
-```
-cyart-vapt-team/
-└── Week 2/
-    ├── README.md                          # This file
-    ├── Documentation/
-    │   ├── 01_Vulnerability_Scanning_Report.pdf
-    │   ├── 02_Reconnaissance_Report.pdf
-    │   ├── 03_Exploitation_Report.pdf
-    │   ├── 04_Post_Exploitation_Report.pdf
-    │   ├── 05_Capstone_VAPT_Report.pdf
-    │   └── 06_Executive_Summary.pdf
-    ├── Screenshots/
-    │   ├── 01_nmap_scan.png
-    │   ├── 02_openvas_results.png
-    │   ├── 03_nikto_scan.png
-    │   ├── 04_shodan_recon.png
-    │   ├── 05_wappalyzer_tech.png
-    │   ├── 06_metasploit_exploit.png
-    │   ├── 07_sqlmap_injection.png
-    │   ├── 08_privilege_escalation.png
-    │   └── 09_evidence_collection.png
-    ├── Scan_Results/
-    │   ├── nmap_comprehensive_scan.xml
-    │   ├── openvas_report.pdf
-    │   ├── nikto_results.html
-    │   ├── sqlmap_output.txt
-    │   └── burpsuite_findings.xml
-    └── Scripts/
-        ├── exploitation_commands.txt
-        ├── post_exploitation_steps.txt
-        └── remediation_code_samples.txt
-```
-
----
-
 ## 🎯 Completed Activities
 
 ### 1. Vulnerability Scanning Lab ✅
