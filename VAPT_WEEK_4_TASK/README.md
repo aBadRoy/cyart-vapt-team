@@ -7,9 +7,9 @@ This repository contains comprehensive documentation for the **Week 4 Capstone P
 **Project Details:**
 - **Project Name:** Full VAPT Engagement Simulation
 - **Target Environment:** HackTheBox Lab (Lame VM) + Custom Test Infrastructure
-- **Duration:** January 21, 2026 (Full Day Engagement)
+- **Duration:** January 20, 2026 (Full Day Engagement)
 - **Team:** VAPT Security Team
-- **Submission Deadline:** January 21, 2026 - 5:30 PM
+- **Submission Deadline:** January 20, 2026 - 5:30 PM
 
 ---
 
@@ -216,14 +216,14 @@ This engagement followed the **Penetration Testing Execution Standard (PTES)** f
 
 | **Timestamp** | **Target IP** | **Vulnerability** | **PTES Phase** | **Status** | **Outcome** |
 |---------------|---------------|-------------------|----------------|------------|-------------|
-| 2026-01-21 09:15:00 | 192.168.1.0/24 | Network Recon | Intelligence | Success | 3 hosts found |
-| 2026-01-21 11:00:00 | 192.168.1.200 | SMB Relay | Exploitation | Success | NTLM Hash |
-| 2026-01-21 11:30:00 | 192.168.1.100 | WordPress XSS→RCE | Exploitation | Success | Meterpreter |
-| 2026-01-21 12:00:00 | 192.168.1.200 | VSFTPD RCE | Exploitation | Success | Root Shell |
-| 2026-01-21 13:30:00 | 192.168.1.150 | SUID Exploit | Post-Exploit | Success | Root Shell |
-| 2026-01-21 14:45:00 | API Endpoint | BOLA | Exploitation | Success | Data Access |
-| 2026-01-21 15:00:00 | GraphQL API | Injection | Exploitation | Success | Schema Dump |
-| 2026-01-21 16:00:00 | test.apk | Auth Bypass | Mobile Test | Success | Full Access |
+| 2026-01-20 09:15:00 | 192.168.1.0/24 | Network Recon | Intelligence | Success | 3 hosts found |
+| 2026-01-20 11:00:00 | 192.168.1.200 | SMB Relay | Exploitation | Success | NTLM Hash |
+| 2026-01-20 11:30:00 | 192.168.1.100 | WordPress XSS→RCE | Exploitation | Success | Meterpreter |
+| 2026-01-20 12:00:00 | 192.168.1.200 | VSFTPD RCE | Exploitation | Success | Root Shell |
+| 2026-01-20 13:30:00 | 192.168.1.150 | SUID Exploit | Post-Exploit | Success | Root Shell |
+| 2026-01-20 14:45:00 | API Endpoint | BOLA | Exploitation | Success | Data Access |
+| 2026-01-20 15:00:00 | GraphQL API | Injection | Exploitation | Success | Schema Dump |
+| 2026-01-20 16:00:00 | test.apk | Auth Bypass | Mobile Test | Success | Full Access |
 
 ---
 
@@ -394,6 +394,6 @@ This capstone project enhanced proficiency in:
 
 ---
 
-**Last Updated:** January 21, 2026  
+**Last Updated:** January 20, 2026  
 **Version:** 1.0  
 **Report Reference:** VAPT-2026-W4-CAPSTONE
