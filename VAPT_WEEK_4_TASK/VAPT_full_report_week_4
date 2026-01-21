@@ -2,7 +2,7 @@
 
 **Project:** Full VAPT Engagement - Week 4 Capstone  
 **Target Environment:** HackTheBox Lab VM (Lame)  
-**Test Date:** January 21, 2026  
+**Test Date:** January 20, 2026  
 **Prepared By:** VAPT Security Team  
 **Classification:** CONFIDENTIAL
 
@@ -36,7 +36,7 @@ Without immediate action, these vulnerabilities could result in complete system 
 
 **Testing Authorization:**
 - Authorized by: Lab Environment Manager
-- Testing Window: January 21, 2026, 09:00 - 17:30
+- Testing Window: January 20, 2026, 09:00 - 17:30
 - Rules of Engagement: Non-production environment, full exploitation permitted
 
 ### 1.2 Methodology
@@ -68,7 +68,7 @@ The assessment followed the Penetration Testing Execution Standard (PTES) framew
 
 **Phase 1: Reconnaissance**
 ```
-Timestamp: 2026-01-21 09:15:00
+Timestamp: 2026-01-20 09:15:00
 Activity: Network scanning and service enumeration
 Target: 192.168.1.0/24
 ```
@@ -83,7 +83,7 @@ Initial network scan revealed multiple active hosts with exposed services:
 
 **Phase 2: Vulnerability Identification**
 ```
-Timestamp: 2026-01-21 09:45:00
+Timestamp: 2026-01-20 09:45:00
 Activity: OpenVAS vulnerability scan
 Findings: 12 vulnerabilities detected (3 Critical, 4 High, 5 Medium)
 ```
@@ -94,7 +94,7 @@ Critical finding: VSFTPD 2.3.4 backdoor vulnerability (CVE-2011-2523) on 192.168
 
 **Attack ID 015: SMB Relay Attack**
 ```
-Timestamp: 2026-01-21 11:00:00
+Timestamp: 2026-01-20 11:00:00
 Target IP: 192.168.1.200
 Technique: SMB Relay using Responder
 Status: Success
@@ -105,7 +105,7 @@ Responder was deployed to capture SMB authentication attempts. Successfully inte
 
 **Attack ID 007: WordPress Exploit Chain**
 ```
-Timestamp: 2026-01-21 11:30:00
+Timestamp: 2026-01-20 11:30:00
 Target IP: 192.168.1.100
 Exploit: XSS to RCE Chain via WordPress Plugin
 Exploit ID: exploit/multi/http/wordpress_plugin_rce
@@ -117,7 +117,7 @@ Chained stored XSS vulnerability with plugin RCE to achieve initial foothold. Me
 
 **Primary Exploitation: VSFTPD Backdoor**
 ```
-Timestamp: 2026-01-21 12:00:00
+Timestamp: 2026-01-20 12:00:00
 Target IP: 192.168.1.200
 Vulnerability: VSFTPD 2.3.4 Backdoor RCE
 PTES Phase: Exploitation
@@ -140,7 +140,7 @@ The VSFTPD backdoor vulnerability was successfully exploited, providing immediat
 
 **Task ID 010: SUID Binary Exploitation**
 ```
-Timestamp: 2026-01-21 13:30:00
+Timestamp: 2026-01-20 13:30:00
 Target IP: 192.168.1.150
 Technique: SUID bit exploitation
 Tool: LinPEAS enumeration
@@ -154,7 +154,7 @@ On the secondary target (192.168.1.150), LinPEAS enumeration script identified m
 
 **Test ID 008: Broken Object Level Authorization (BOLA)**
 ```
-Timestamp: 2026-01-21 14:45:00
+Timestamp: 2026-01-20 14:45:00
 Target Endpoint: /api/users
 Vulnerability: OWASP API A01:2023 - BOLA
 Severity: Critical
@@ -168,7 +168,7 @@ API endpoint testing revealed broken object-level authorization. By manipulating
 
 **Test ID 009: GraphQL Injection**
 ```
-Timestamp: 2026-01-21 15:00:00
+Timestamp: 2026-01-20 15:00:00
 Target Endpoint: /graphql
 Vulnerability: GraphQL Injection
 Severity: High
@@ -188,7 +188,7 @@ GraphQL endpoint lacked proper input validation and query depth limiting. Crafte
 
 **Test ID 016: Insecure Data Storage**
 ```
-Timestamp: 2026-01-21 15:45:00
+Timestamp: 2026-01-20 15:45:00
 Target Application: test.apk
 Tool: MobSF (Mobile Security Framework)
 Vulnerability: OWASP Mobile M2 - Insecure Storage
@@ -199,7 +199,7 @@ Static analysis using MobSF revealed hardcoded API credentials and sensitive use
 
 **Dynamic Testing: Authentication Bypass**
 ```
-Timestamp: 2026-01-21 16:00:00
+Timestamp: 2026-01-20 16:00:00
 Tool: Frida (Runtime Instrumentation)
 Technique: Function hooking
 Outcome: Successfully bypassed biometric authentication
@@ -762,6 +762,6 @@ Evidence includes:
 
 **Document Control:**
 - Version: 1.0
-- Date: January 21, 2026
+- Date: January 20, 2026
 - Classification: CONFIDENTIAL
 - Distribution: Authorized Personnel Only
